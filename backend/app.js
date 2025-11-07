@@ -8,7 +8,8 @@ import { errorMiddleware } from "./error/error.js";
 import reservationRoute from "./routes/reservationRoute.js";
 
 // Load environment variables
-dotenv.config({ path: "./config/config.env" });
+dotenv.config();
+
 
 const app = express();
 

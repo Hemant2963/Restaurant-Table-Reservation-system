@@ -2,7 +2,8 @@ import app from "./app.js";
 import dotenv from "dotenv";
 
 // Load environment variables
-dotenv.config({ path: "./config/config.env" });
+dotenv.config();
+
 
 // ✅ Render provides its own PORT automatically
 const PORT = process.env.PORT || 5000;
